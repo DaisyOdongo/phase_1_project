@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodmart Groceries</title>
+    <!-- Custom CSS File link  -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section starts  -->
+    <header>
+        <div class="container">
+            <!-- navbar starts here -->
+            <nav class="navbar">
+                <div class="header-1">
+                    <a href="#home" class="logo"><img
+                            src="Images/grocery-store-logo-design-template-26efc5e6e40131b8138308aed1bb075b_screen.jpg"
+                            alt=""></a>
+                </div>
+                <div class="header-2">
+                    <form action="" class="search-box-container">
+                        <input type="search" id="search-box" placeholder="search here">
+                        <label for="search-box" class="fas fa-search"></label>
+                    </form>
+                </div>
+                <!-- <a href="index.html" class="navbar-brand">Groceries</a> -->
+                <button type="button" class="navbar-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li></li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <button type="button" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count-info"></span>
+                    </button>
+    
+                    <div class="cart-container">
+                        <div class="cart-list">
+    
+                            <div class="cart-item">
+                                <img src="https://st2.depositphotos.com/1526816/5854/v/600/depositphotos_58547269-stock-illustration-nutritious-carrots.jpg"
+                                    alt="">
+                                <div class="cart-item-info">
+                                    <h3 class="cart-item-name">Carrot</h3>
+                                    <span class="cart-item-category">Vegetable</span>
+                                    <span class="cart-item-description">Farm fresh carrots</span>
+                                    <span class="cart-item-price">Ksh. 450/Kg</span>
+                                </div>
+                                <button type="button" class="cart-item-del-btn">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                                <div class="cart-total">
+                                    <h3>Total: Ksh.</h3>
+                                    <span id="cart-total-value"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+    
+        <!-- header section ends       -->
+    </header>
+</body>
+</html>
