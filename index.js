@@ -112,4 +112,25 @@ function findCartInfo() {
             productCount: products.length
     }
 }
+function deleteProduct(e) {
+    let cartItem;
+
+    if(e.target.tagName==="BUTTON") {
+        cartItem=e.target.parentElement;
+        cartItem.remove(); // this removes from the DOM only
+    }
+
+    else if(e.target.tagName==="I") {
+        cartItem=e.target.parentElement.parentElement;
+        cartItem.remove(); // this removes from the DOM only
+    }
+
+    let products=getProductFromStorage();
+
+    let updatedProducts=products.filter(product=> {
+            return product.id !==parseInt(cartItem.dataset.id);
+        });
+    localStorage.setItem('products', JSON.stringify(updatedProducts)); // updating the product list after the deletion
+    updateCartInfo();
+}
 
