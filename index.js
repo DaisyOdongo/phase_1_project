@@ -25,3 +25,18 @@ function eventListeners(){
     cartList.addEventListener('click', deleteProduct);
 
 }
+function loadJSON(){
+    fetch('db.json')
+    .then(response => response.json())
+    .then(data => {
+        let html='';
+
+        data.forEach(product=>{
+            html +=`<div class="product-item"> <div class="product-img"> <image src="${product.imgScr}" alt=""></div> <div class="product-content"> <h4 class="product-name">${product.name}<p class="product-category">${product.category} <p class="product-description">${product.description} <h5 class="product-price">${product.price} <button type="button" class="add-to-cart-btn" > <i class="fas fa-shopping-cart"></i> Add To Cart </button> </div> </div> `;
+            });
+            productList.innerHTML=html;
+
+        }).catch(error => {
+            alert(`User live sever or local server`);
+        })
+    }
