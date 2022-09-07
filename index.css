@@ -267,10 +267,10 @@ button {
 }
 
 #grocery-store-banner {
-    max-width: 1270px;
+    max-width: 900px;
     width: 100%;
     padding: 0px 380px 20px 0px;
-    max-height: 720px;
+    max-height: 700px;
     height: 100%;
     display: block;
 
@@ -402,4 +402,132 @@ product-name {
 #all i {
     color: #ED661F;
     font-weight: 600;
+}
+.footer {
+    background: rgb(122, 247, 122);
+    margin-top: 30px;
+}
+
+.footer .wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 50px;
+    border-bottom: .10px solid rgba(0, 0, 0, 10);
+}
+
+.footer .box-container .box .icons a {
+    font-size: 15px;
+}
+
+.credit,
+.credit span {
+    font-size: 15px;
+}
+
+.footer .wrapper .feature-box {
+    flex: 10px 10px 300px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .wrapper .feature-box:hover {
+    color: blue;
+}
+
+.footer .wrapper .feature-box i {
+    width: 70px;
+    height: 70px;
+    border: 1px;
+    border-color: blue;
+    text-align: center;
+    line-height: 70px;
+    font-size: 2opx;
+    border-radius: 50%;
+    color: blue;
+    margin-right: 15px;
+}
+
+.footer .wrapper .feature-box .content h3 {
+    font-size: 15px;
+    color: blue;
+    padding-bottom: .50px;
+    font-weight: bold;
+}
+
+.footer .wrapper .feature-box .content p {
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+
+.footer .box-container {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer .box-container .box {
+    flex-basis: 10px 10px 300px;
+    padding: 0 3rem;
+}
+
+.footer .box-container .box .icons {
+    margin-top: 25px;
+}
+
+.footer .box-container .box .icons a {
+    display: block;
+    padding: 4px 0;
+    font-size: 13px;
+    color: #808080;
+}
+
+.footer .box-container .box .icon-1 a:nth-child(3) {
+    color: orange;
+    text-transform: none;
+}
+
+.footer .box-container .box .icon-1 a:nth-child(4) {
+    color: blue;
+    text-transform: none;
+}
+
+.footer .box-container .box .icons i {
+    margin-right: 5px;
+}
+
+.footer .box-container .box h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer .box-container .box .image {
+    margin-top: 20px;
+}
+
+.footer .box-container .box .image img {
+    width: 130px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    background: var(--teal);
+    padding: 30px 0;
+    letter-spacing: .1rem;
+}
+
+.credit span {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 10px;
 }
