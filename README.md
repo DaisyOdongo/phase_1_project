@@ -27,7 +27,7 @@ This project is an online grocery website that will contain general fresh produc
 
 ## Setup
 
-To run this projcet,clone this repository fom github at https://github.com/DaisyOdongo/Phase-1-Project
+To run this projcet,clone this repository fom github at https://github.com/DaisyOdongo/phase_1_project
 
 ## Contact
 
