@@ -40,3 +40,20 @@ function loadJSON(){
             alert(`User live sever or local server`);
         })
     }
+    function purchaseProduct(e) {
+    if(e.target.classList.contains('add-to-cart-btn')) {
+        let product=e.target.parentElement.parentElement;
+        getProductInfo(product);
+    }
+}  
+
+function getProductInfo(product) {
+    let productInfo= {
+        id: cartItemID,
+            imgSrc: product.querySelector('.product-img img').src,
+            name: product.querySelector('.product-name').textContent,
+            category: product.querySelector('.product-category').textContent,
+            description:product.querySelector('.product-description').textContent,
+            price: product.querySelector('.product-price').textContent
+    }
+
