@@ -26,7 +26,7 @@ function eventListeners(){
 
 }
 function loadJSON(){
-    fetch('db.json')
+    fetch('db.jsonhttps://whispering-hamlet-94712.herokuapp.com/groceries')
     .then(response => response.json())
     .then(data => {
         let html='';
