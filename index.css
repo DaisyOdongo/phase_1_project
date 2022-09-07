@@ -306,6 +306,17 @@ button {
     font-size: larger;
     font: weight 5px;
 }
+.product-list {
+
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 6%);
+
+}
+
 .add-to-cart-btn {
     position: absolute;
     top: 50%;
@@ -348,4 +359,47 @@ button {
 
 .add-to-cart-btn:hover {
     color: fire-bush;
+}
+product-name {
+    font-size: 13px;
+    color: var(--baltic-sea);
+}
+
+.banner3 {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 5px; */
+    flex: 50px 50px 130px;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 6%);
+
+}
+
+.banner3 img {
+    max-width: 40%;
+    max-height: 100%;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box
+}
+
+.banner3:hover img {
+    transform: scale(1.1);
+    transition: .2s linear;
+}
+
+#all {
+    float: right;
+    color: black;
+    font-size: x-large;
+
+}
+
+#all i {
+    color: #ED661F;
+    font-weight: 600;
 }
