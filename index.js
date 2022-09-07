@@ -70,4 +70,14 @@ function addToCartList(product) {
     cartItem.innerHTML=` <img src="${product.imgSrc}" alt="product image"><div class="cart-item-info"><h3 class="cart-item-name">${product.name}</h3><span class="cart-item-category">${product.category}</span><span class="cart-item-price">${product.price}</span></div><button type="button" class="cart-item-del-btn"><i class="fas fa-times"></i></button>`;
     cartList.appendChild(cartItem);
 }
+function saveProductInStorage(item) {
+    let products=getProductFromStorage();
+    products.push(item);
+    localStorage.setItem('products', JSON.stringify(products));
+    updateCartInfo();
+}
+
+function getProductFromStorage() {
+    return localStorage.getItem('products') ? JSON.parse(localStorage.getItem('products')): [];
+}
 
