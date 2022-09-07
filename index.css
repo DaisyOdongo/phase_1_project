@@ -259,6 +259,53 @@ button {
     font-size: 13px;
     font-weight: 500;
 }
+.banner {
+    background-color: rgb(122, 247, 122);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#grocery-store-banner {
+    max-width: 1270px;
+    width: 100%;
+    padding: 0px 380px 20px 0px;
+    max-height: 720px;
+    height: 100%;
+    display: block;
+
+}
+
+#explain {
+    margin-top: 0%;
+    margin-left: 5%;
+    padding: 100px 0px;
+    width: auto;
+}
+
+#explain span {
+    color: red;
+    font-style: italic;
+}
+
+#explain p {
+    padding-top: 40px;
+    font-size: large;
+}
+
+
+
+.banner1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 30%;
+    margin-right: 10%;
+    font-size: larger;
+    font: weight 5px;
+}
 .add-to-cart-btn {
     position: absolute;
     top: 50%;
