@@ -7,16 +7,16 @@ let cartItemID=1;
 
 eventListeners();
 
-function eventListeners(){
+ function eventListeners(){
     window.addEventListener('DOMContentLoaded', () => {
         loadJSON();
         loadCart();
-    });
-
-    document.querySelector('.navbar-toggler').addEventListener('click', () => {
-        document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
-    });
+     });
     
+     document.querySelector('.navbar-toggler').addEventListener('click', () => {
+        document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
+     });
+    }  
      document.getElementById('cart-btn').addEventListener('click', () => {
         cartContainer.classList.toggle('show-cart-container');
     });
@@ -24,7 +24,7 @@ function eventListeners(){
 
     cartList.addEventListener('click', deleteProduct);
 
-}
+
 function loadJSON(){
     fetch('db.jsonhttps://whispering-hamlet-94712.herokuapp.com/groceries')
     .then(response => response.json())
@@ -117,12 +117,12 @@ function deleteProduct(e) {
 
     if(e.target.tagName==="BUTTON") {
         cartItem=e.target.parentElement;
-        cartItem.remove(); // this removes from the DOM only
+        cartItem.remove(); 
     }
 
     else if(e.target.tagName==="I") {
         cartItem=e.target.parentElement.parentElement;
-        cartItem.remove(); // this removes from the DOM only
+        cartItem.remove(); 
     }
 
     let products=getProductFromStorage();
