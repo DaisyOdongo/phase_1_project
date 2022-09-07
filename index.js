@@ -96,20 +96,20 @@ function loadCart() {
  
     updateCartInfo();
 }
-function loadCart() {
+
+function findCartInfo() {
     let products=getProductFromStorage();
 
-    if(products.length < 1) {
-        cartItemID=1; // if there is no any product in the local storage
-    }
+    let total=products.reduce((acc, product)=> {
+            let price=parseFloat(product.price.substr(1)); // removing Ksh.
+            return acc +=price;
+        }
 
-    else {
-        cartItemID=products[products.length - 1].id;
-        cartItemID++;
-        // else get the id of the last product and increase it by 1
+        , 0); // adding all the prices
+
+    return {
+        total: total.toFixed(2),
+            productCount: products.length
     }
-    products.forEach(product=> addToCartList(product));
- 
-    updateCartInfo();
 }
 
