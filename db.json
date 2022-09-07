@@ -5,7 +5,7 @@
       "name": "carrots",
       "description": "Farm fresh carrots.",
       "image_url": "https://st2.depositphotos.com/1526816/5854/v/600/depositphotos_58547269-stock-illustration-nutritious-carrots.jpg",
-      "price":"Ksh. 150/Kg",
+      "price":"Ksh. 150.00",
       "id":"1"
     }, 
 
@@ -14,7 +14,7 @@
       "name": "Broccoli",
       "description": "Fresh broccoli",
       "image_url": "https://static9.depositphotos.com/1002351/1132/i/450/depositphotos_11323739-stock-photo-broccoli-vegetable.jpg",
-      "price":"Ksh.90/Kg",
+      "price":"Ksh.90.00",
       "id":"2"
     }, 
     {
@@ -22,7 +22,7 @@
       "name": "red cabbage",
       "description": "Organic red cabbage.",
       "image_url": "https://st.depositphotos.com/3260227/4735/i/450/depositphotos_47355247-stock-photo-red-cabbage.jpg",
-      "price":"Ksh. 70/Kg",
+      "price":"Ksh. 70.00",
       "id":"3"
     
     }, 
@@ -31,7 +31,7 @@
       "name": "Cauliflower",
       "description": "Fresh cauliflower.",
       "image_url": "https://st3.depositphotos.com/1638880/36457/i/450/depositphotos_364578642-stock-photo-cauliflower-plant-cruciferous-family-well.jpg",
-      "price":"Ksh. 90/Kg",
+      "price":"Ksh. 90.00",
       "id":"4"
     
     }, 
@@ -40,7 +40,7 @@
       "name": "cucumber",
       "description": "Fresh and firm cucumber.",
       "image_url": "https://static3.depositphotos.com/1000528/110/i/450/depositphotos_1109869-stock-photo-green-cucumbers-isolated.jpg",
-      "price":"Ksh. 120/Kg",
+      "price":"Ksh. 120.00",
       "id":"5"
     
     }, 
@@ -49,7 +49,7 @@
       "name": "tomatoes",
       "description": "Oragnic tomatoes",
       "image_url": "https://static9.depositphotos.com/1177973/1146/i/450/depositphotos_11466600-stock-photo-ripe-red-tomatoes-isolated-on.jpg",
-      "price":"Ksh. 90/Kg",
+      "price":"Ksh. 90.00",
       "id":"6"
     }, 
     {
@@ -57,7 +57,7 @@
       "name": "red onion",
       "description": "Medium sized red onions.",
       "image_url": "https://st.depositphotos.com/1177973/3366/i/450/depositphotos_33660023-stock-photo-fresh-red-onions-on-wooden.jpg",
-      "price":"Ksh. 100/Kg",
+      "price":"Ksh. 100.00",
       "id":"7"
     },
  
@@ -66,7 +66,7 @@
       "name": "Chickpeas",
       "description": "Dried chickpeas.",
       "image_url": "https://st4.depositphotos.com/9275210/24116/i/450/depositphotos_241160196-stock-photo-chickpeas-ceramic-bowl-dark-wooden.jpg",
-      "price":"Ksh. 150/Kg",
+      "price":"Ksh. 150.00",
       "id":"8"
 }, 
  
@@ -75,7 +75,7 @@
       "name": "Beans",
       "description": "Dry rose coco beans.",
       "image_url": "https://st4.depositphotos.com/13324256/30140/i/450/depositphotos_301405390-stock-photo-close-view-uncooked-pinto-beans.jpg",
-      "price":"Ksh. 135/Kg",
+      "price":"Ksh. 135.00",
       "id":"9"
 }, 
  { 
@@ -83,7 +83,7 @@
       "name": "Rice",
       "description": "Mwea Pishori rice.",
       "image_url": "https://static4.depositphotos.com/1008041/348/i/450/depositphotos_3485762-stock-photo-white-rice.jpg",
-      "price":"Ksh.220/Kg",
+      "price":"Ksh.220.00",
       "id":"10"
     }, 
     {
@@ -91,7 +91,7 @@
       "name": "groundnuts",
       "description": "Red groundnuts.",
       "image_url": "https://st.depositphotos.com/2208212/2541/i/450/depositphotos_25410319-stock-photo-peanuts.jpg",
-      "price":"Ksh. 180/Kg",
+      "price":"Ksh. 180.00",
       "id":"11"
     },
     {
@@ -99,7 +99,7 @@
         "name":"Green grams",
         "description": "Makueni green grams",
         "image_utl": "https://st.depositphotos.com/2511577/5038/i/450/depositphotos_50380853-stock-photo-fresh-mung-bean-grams-close.jpg",
-        "price": "Ksh.120/Kg",
+        "price": "Ksh.120.00",
         "id":"12"
     },
     {
@@ -107,7 +107,7 @@
       "name": "thyme",
       "description": "Fresh thyme.",
       "image_url": "https://st.depositphotos.com/1152502/2972/i/450/depositphotos_29722057-stock-photo-thyme.jpg",
-      "price":"Ksh. 50/bunch",
+      "price":"Ksh. 50.00",
       "id":"13"
     }, 
     {
@@ -115,7 +115,7 @@
       "name": "rosemary",
       "description": "Fresh rosemary",
       "image_url": "https://st2.depositphotos.com/2016173/5248/i/450/depositphotos_52481453-stock-photo-tied-fresh-rosemary-on-a.jpg",
-      "price":"Ksh. 45/bunch",
+      "price":"Ksh. 45.00",
       "id":"14"
     }, 
     {
@@ -123,7 +123,7 @@
       "name": "basil",
       "description": "Fresh basil leaves.",
       "image_url": "https://st.depositphotos.com/1000141/2653/i/450/depositphotos_26536615-stock-photo-basil-leaves-in-closeup.jpg",
-      "price":"Ksh. 60/bunch",
+      "price":"Ksh. 60.00",
       "id":"15"
     }, 
     {
@@ -131,7 +131,7 @@
       "name": "oregano",
       "description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
       "image_url": "https://st2.depositphotos.com/1000141/6489/i/450/depositphotos_64891237-stock-photo-oregano-spices.jpg",
-      "price":"Ksh.70/bunch",
+      "price":"Ksh.70.00",
       "id":"16"
     }, 
     {
@@ -139,7 +139,7 @@
       "name": "cinnamon",
       "description": "Dried cinnamon sticks.",
       "image_url": "https://st.depositphotos.com/1000141/1936/i/450/depositphotos_19367005-stock-photo-cinnamon-in-closeup.jpg",
-      "price":"Ksh. 90/bunch",
+      "price":"Ksh. 90.00",
       "id":"17"
     },
     {
@@ -147,7 +147,7 @@
     "name": "ginger",
     "description": "Fresh ginger roots",
     "image_url": "https://st.depositphotos.com/1011514/2001/i/450/depositphotos_20013959-stock-photo-fresh-ginger.jpg",
-    "price":"Ksh. 180/Kg",
+    "price":"Ksh. 180.00",
     "id":"18"
     },
     {
@@ -155,7 +155,7 @@
       "name": "sage",
       "description": "Fresh or dried sage leaves.",
       "image_url": "https://st.depositphotos.com/1000141/3276/i/450/depositphotos_32764601-stock-photo-sage-plant.jpg",
-      "price":"Ksh. 80/bunch",
+      "price":"Ksh. 80.00",
       "id":"19"
     }, 
     {
@@ -163,7 +163,7 @@
       "name": "Tumeric",
       "description": "Fresh tumeric roots",
       "image_url": "https://st4.depositphotos.com/14670260/19887/i/450/depositphotos_198873376-stock-photo-turmeric-powder-fresh-turmeric-grey.jpg",
-      "price":"Ksh. 150/Kg",
+      "price":"Ksh. 150.00",
       "id":"20"
     },
     {
@@ -171,7 +171,7 @@
     "name": "Apples",
     "description": "Organic fresh red apples",
     "image_url": "https://static9.depositphotos.com/1049691/1080/i/450/depositphotos_10806368-stock-photo-fresh-apples.jpg",
-    "price":"Ksh. 230/Kg",
+    "price":"Ksh. 230.00",
     "id":"21"
     },  
     {
@@ -179,7 +179,7 @@
     "name": "Avocado",
     "description": "Kisii buttery avocados",
     "image_url": "https://static9.depositphotos.com/1158384/1226/i/450/depositphotos_12263402-stock-photo-ripe-organic-avocado.jpg",
-    "price":"Ksh. 160/Kg",
+    "price":"Ksh. 160.00",
     "id":"22"
     },  
     {
@@ -187,7 +187,7 @@
     "name": "Oranges",
     "description": "Juicy Makueni oranges",
     "image_url": "https://static8.depositphotos.com/1020804/884/i/450/depositphotos_8840885-stock-photo-orange-fruits-on-a-white.jpg",
-    "price":"Ksh. 108/Kg",
+    "price":"Ksh. 108.00",
      "id":"23"
     },  
     {
@@ -195,7 +195,7 @@
     "name": "Mangoes",
     "description": "Fresh, juicy nd sweet Ukambani mangoes.",
     "image_url": "https://st4.depositphotos.com/1013883/23381/i/450/depositphotos_233816136-stock-photo-sliced-mango-isolated-white-background.jpg",
-    "price":"Ksh. 120/Kg",
+    "price":"Ksh. 120.00",
     "id":"24"
     },  
     {
@@ -203,7 +203,7 @@
     "name": "pineapples",
     "description": "Kilifi pineapples",
     "image_url": "https://static3.depositphotos.com/1010432/259/i/450/depositphotos_2592749-stock-photo-pineapples.jpg",
-    "price":"Ksh. 112/Kg",
+    "price":"Ksh. 112.00",
     "id":"25"
     },  
     {
@@ -211,7 +211,7 @@
     "name": "Sweet banana",
     "description": "Ripe sweet bananas",
     "image_url": "https://st.depositphotos.com/1001071/2543/i/450/depositphotos_25436763-stock-photo-bunch-of-ripe-bananas-background.jpg",
-    "price":"Ksh. 144/Kg",
+    "price":"Ksh. 144.00",
     "id":"26"
     }, 
     {
@@ -219,7 +219,7 @@
       "name": "grapes",
       "description": "Fresh grapes.",
       "image_url": "https://st.depositphotos.com/1005259/1247/i/450/depositphotos_12476731-stock-photo-green-and-rose-grapes-background.jpg",
-      "price":"Ksh.400/Kg",
+      "price":"Ksh.400.00",
       "id":"27"
     },
     {
@@ -227,7 +227,7 @@
       "name": "Kiwi",
       "description": "Fresh kiwi fruit.",
       "image_url": "https://st3.depositphotos.com/1027198/13316/i/450/depositphotos_133169844-stock-photo-fresh-kiwi-fruit.jpg",
-      "price":"Ksh. 450/Kg",
+      "price":"Ksh. 450.00",
       "id":"28"
     }  
     ]
