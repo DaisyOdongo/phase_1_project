@@ -296,10 +296,9 @@ header .container {
 }
 
 
-
 .banner {
     flex: 1;
-    padding-top: 6rem;
+    padding-top: 9rem;
     text-align: center;
 }
 

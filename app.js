@@ -26,7 +26,7 @@ eventListeners();
 
 
 function loadJSON(){
-    fetch('db.jsonhttps://whispering-hamlet-94712.herokuapp.com/groceries')
+    fetch(`https://whispering-hamlet-94712.herokuapp.com/groceries`)
     .then(response => response.json())
     .then(data => {
         let html='';
