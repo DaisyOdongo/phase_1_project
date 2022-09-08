@@ -7,22 +7,30 @@ let cartItemID=1;
 
 eventListeners();
 
- function eventListeners(){
+function eventListeners(){
     window.addEventListener('DOMContentLoaded', () => {
         loadJSON();
         loadCart();
-     });
-    
-     document.querySelector('.navbar-toggler').addEventListener('click', () => {
+    });
+
+    document.querySelector('.navbar-toggler').addEventListener('click', () => {
         document.querySelector('.navbar-collapse').classList.toggle('show-navbar');
-     });
-    }  
+    });
+    
      document.getElementById('cart-btn').addEventListener('click', () => {
         cartContainer.classList.toggle('show-cart-container');
     });
     productList.addEventListener('click', purchaseProduct);
 
     cartList.addEventListener('click', deleteProduct);
+
+}
+
+function updateCartInfo(){
+    let cartInfo=findCartInfo();
+    cartCountInfo.textContent=cartInfo.productCount;
+    cartTotalValue.textContent=cartInfo.total;
+}
 
 
  function loadJSON(name, category, description, price, imag_url) {
@@ -36,17 +44,16 @@ eventListeners();
             html +=
             `<div class = "product-item">
                 <div class = "product-img">
-                    <img src="https://static9.depositphotos.com/1002351/1132/i/450/depositphotos_11323739-stock-photo-broccoli-vegetable.jpg"
-                        alt="product image">
+                    <img src=${product.image_url}>
                     <button type = "button" class = "add-to-cart-btn">
                     <i class = "fas fa-shopping-cart"></i>Add To Cart
                     </button>
                 </div>
                 <div class="product-content">
-                    <h3 class="product-name">Broccoli</h3>
-                    <span class="product-category">Vegetable</span>
-                    <span class="product-description">Fresh broccoli</span>
-                    <p class="product-price">Ksh. 90.00</p>
+                    <h3 class="product-name">${product.name}</h3>
+                    <span class="product-category">${product.category}</span>
+                    <span class="product-description">${product.description}</span>
+                    <p class="product-price">${product.price}</p>
                 </div> 
             </div> `;
             });
@@ -83,12 +90,12 @@ function addToCartList(product) {
     cartItem.classList.add('cart-item');
     cartItem.setAttribute('data-id', `${product.id}`);
     cartItem.innerHTML=` <div class = "cart-item">
-                                    <img src="https://st2.depositphotos.com/1526816/5854/v/600/depositphotos_58547269-stock-illustration-nutritious-carrots.jpg">
+                                    <img src=${product.image_url}>
                                       <div class = "cart-item-info">
-                                        <h3 class = "cart-item-name">Carrot</h3>
-                                        <span class = "cart-item-category">Vegetable</span>
-                                        <span class="cart-item-description">Farm fresh carrots</span>
-                                        <span class = "cart-item-price">Ksh.150.00</span>
+                                        <h3 class = "cart-item-name">${product.name}</h3>
+                                        <span class = "cart-item-category">${product.category}</span>
+                                        <span class="cart-item-description">${product.description}</span>
+                                        <span class = "cart-item-price">${product.price}</span>
                                       </div>
                                       <button type = "button" class = "cart-item-del-btn">
                                         <i class = "fas fa-times"></i>
