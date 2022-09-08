@@ -25,19 +25,34 @@ eventListeners();
     cartList.addEventListener('click', deleteProduct);
 
 
-function loadJSON(){
+ function loadJSON(name, category, description, price, imag_url) {
+    const info = { name, category, description, price, imag_url };
     fetch(`https://whispering-hamlet-94712.herokuapp.com/groceries`)
-    .then(response => response.json())
+   .then(response => response.json())
     .then(data => {
         let html='';
 
-        data.forEach(product=>{
-            html +=`<div class="product-item"> <div class="product-img"> <image src="${product.imgScr}" alt=""></div> <div class="product-content"> <h4 class="product-name">${product.name}<p class="product-category">${product.category} <p class="product-description">${product.description} <h5 class="product-price">${product.price} <button type="button" class="add-to-cart-btn" > <i class="fas fa-shopping-cart"></i> Add To Cart </button> </div> </div> `;
+         data.forEach(product=>{
+            html +=
+            `<div class = "product-item">
+                <div class = "product-img">
+                    <img src="https://static9.depositphotos.com/1002351/1132/i/450/depositphotos_11323739-stock-photo-broccoli-vegetable.jpg"
+                        alt="product image">
+                    <button type = "button" class = "add-to-cart-btn">
+                    <i class = "fas fa-shopping-cart"></i>Add To Cart
+                    </button>
+                </div>
+                <div class="product-content">
+                    <h3 class="product-name">Broccoli</h3>
+                    <span class="product-category">Vegetable</span>
+                    <span class="product-description">Fresh broccoli</span>
+                    <p class="product-price">Ksh. 90.00</p>
+                </div> 
+            </div> `;
             });
-            productList.innerHTML=html;
-
-        }).catch(error => {
-            alert(`User live sever or local server`);
+             productList.innerHTML=html;
+         }).catch(error => {
+             alert(`User live sever or local server`);
         })
     }
     function purchaseProduct(e) {
@@ -67,7 +82,18 @@ function addToCartList(product) {
     const cartItem=document.createElement('div');
     cartItem.classList.add('cart-item');
     cartItem.setAttribute('data-id', `${product.id}`);
-    cartItem.innerHTML=` <img src="${product.imgSrc}" alt="product image"><div class="cart-item-info"><h3 class="cart-item-name">${product.name}</h3><span class="cart-item-category">${product.category}</span><span class="cart-item-price">${product.price}</span></div><button type="button" class="cart-item-del-btn"><i class="fas fa-times"></i></button>`;
+    cartItem.innerHTML=` <div class = "cart-item">
+                                    <img src="https://st2.depositphotos.com/1526816/5854/v/600/depositphotos_58547269-stock-illustration-nutritious-carrots.jpg">
+                                      <div class = "cart-item-info">
+                                        <h3 class = "cart-item-name">Carrot</h3>
+                                        <span class = "cart-item-category">Vegetable</span>
+                                        <span class="cart-item-description">Farm fresh carrots</span>
+                                        <span class = "cart-item-price">Ksh.150.00</span>
+                                      </div>
+                                      <button type = "button" class = "cart-item-del-btn">
+                                        <i class = "fas fa-times"></i>
+                                      </button>
+                                    </div> `;
     cartList.appendChild(cartItem);
 }
 function saveProductInStorage(item) {
@@ -133,4 +159,6 @@ function deleteProduct(e) {
     localStorage.setItem('products', JSON.stringify(updatedProducts)); // updating the product list after the deletion
     updateCartInfo();
 }
+
+
 
